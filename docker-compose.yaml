@@ -45,6 +45,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - NODE_ENV=production
+      NODE_ENV: production
+      KEYCLOAK_URL: http://localhost:8080
+      KEYCLOAK_CLIENT_SECRET: oNwoLQdvJAvRcL89SydqCWCe5ry1jMgq
     depends_on:
       - keycloak

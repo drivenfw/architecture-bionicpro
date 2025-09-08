@@ -11,6 +11,8 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "jwt-decode": "^4.0.0",
+    "keycloak-connect": "^26.1.1"
   }
 }
